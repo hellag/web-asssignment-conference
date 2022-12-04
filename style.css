@@ -7,9 +7,11 @@
   --black: #000000;
   --footer: #0cbba2;
 }
+
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: auto;
   font-family: 'Fauna One', sans-serif;
@@ -59,11 +61,12 @@ main {
   justify-content: center;
 }
 
-main > div{
+main>div {
   width: 50%;
-  margin:10px;
-  
+  margin: 10px;
+
 }
+
 section {
   background-color: var(--white);
 }
@@ -84,6 +87,16 @@ aside {
 
 .p-aside {
   color: var(--white);
+  padding: 5px;
+}
+
+p,
+form,
+h3,
+h4,
+input {
+  margin: 5px;
+  padding: 5px;
 }
 
 .footer {
@@ -122,6 +135,7 @@ aside {
 .footer-signature-info {
   color: var(--white);
 }
-span{
+
+span {
   color: var(--white);
 }
